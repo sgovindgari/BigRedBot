@@ -1,0 +1,30 @@
+{
+  "name": "big-red-bot",
+  "version": "1.0.0",
+  "description": "Facebook Bot for everything Cornell related",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgovindgari/BigRedBot.git"
+  },
+  "keywords": [
+    "facebook",
+    "bot",
+    "cornell"
+  ],
+  "author": "Spandana Govindgari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgovindgari/BigRedBot/issues"
+  },
+  "homepage": "https://github.com/sgovindgari/BigRedBot#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "request": "^2.72.0"
+  }
+}
