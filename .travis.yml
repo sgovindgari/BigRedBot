@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-- "0.10"
+- "6.1"
 deploy:
+  app: big-red-bot
+  provider: heroku
   api_key:
-    app: big-red-bot
-    provider: heroku
     secure: Q8iPXe8W4cKEuCCj9sLHAFnQDZ3uCosXihutenftAC7Xzah15/Q9BBUi3RUlBwjkZQwF/+07xrVC8WTOnLSSUgZ0SyU8KNRV29pH7r3MSBNJodSMDTUaoDoCg02IqvcXoO6jqc4kBzP+EksVq6QNX+4dM9cscYEEbJTCG3y0dY0eUk2v5H1T3RIbOYgD8FiWQqs+DPhrYCJMmZUSH2Ce0qvITstTBCogj12g2kO9ipEBeZ0DQ5VkuHoa1a4HTZ1pNumZTsoht6eoVdMmg79GF7qjg+aDNEEXoOg4qmBkVSSuhlGULHF9YrkP25wcD0J9GIEbVwW+i+Vw0EptXPxwlDDEAS2JDStWi1ydpVMBmLrdMWOo+CAqlu3HS01CPqnVivsSy9Mr6HwHRqpuvebKrYl1bWU1PwEMOLtHmKfi27UKAnx+m6J7gYkL+vel13btgBn6xZg7b1R/4PiWsn62sKT4LTbyg72GEHRyHR/uBgMF7NnhcPcruFxHk/2A2WXLpYqfwzzoa/qYe3WF2U95lyPLK2JGq+RJgehDdACW5lF35irWlJV9fiXwyTX/4ipm/WE6gxyLFhQxjk8Uq2G/a5Qd35mjVgOWBaG1nN45J78NrI0WqdCLxZ1Bxyd4SrEgoBR1R4oucIEInm3ZHiEi81lvuUQOux49pDUzvwx2Rw0=
